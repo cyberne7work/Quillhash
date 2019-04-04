@@ -1,0 +1,28 @@
+{
+  "name": "quillhash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberne7work/Quillhash.git"
+  },
+  "author": "VISHAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberne7work/Quillhash/issues"
+  },
+  "homepage": "https://github.com/cyberne7work/Quillhash#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.21"
+  }
+}
