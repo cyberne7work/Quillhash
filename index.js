@@ -10,7 +10,6 @@ const auth      =require("./middleware/auth");
 const User      =require("./models/user");
 
 // Middleware
-
 index.use(bodyParser.json());
 
 
@@ -30,7 +29,6 @@ index.use("/user",blockRoute);
 
 index.get("/",auth,async (req,res)=>{
   const allUser = await User.find({});
-  console.log(allUser);
   res.send(allUser);
 });
 
